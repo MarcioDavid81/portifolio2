@@ -3,10 +3,11 @@ footer{
   background-color: #242734;
   color: white;
   font-family: var(--secondary-font);
+  padding-bottom: 20px;
 }
 
 /*Form style*/
-section{
+section.formulario{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -90,5 +91,89 @@ section{
 
   }
 }
+
+section.sociais{
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px 40px;
+
+  h2{
+    color: #FBBB2F;
+    font-size: 1.5rem;
+  }
+
+  a{
+    text-decoration: none;
+    color: white;
+  }
+
+  i{
+    font-size: 2rem;
+    cursor: pointer;
+    transition: 0.3s;
+
+    &:hover{
+      color: #FBBB2F;
+    }
+  }
+
+}
+
+.contact-icons{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.social-icons{
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.copyrigth{
+  display: flex;
+  background-color: #000000;
+  color: white;
+  font-size: 0.8rem;
+  font-family: var(--secondary-font);
+  justify-content: space-around;
+
+  p{
+    margin: 1px;
+  }
+}
+
+@media (width < 768px){
+  section.sociais{
+    padding: 10px;
+    align-items: center;
+
+    .contact-icons{
+      align-items: center;
+      padding: 30px 0;
+    }
+
+    .social-icons{
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      width: 100%;
+      margin-top: 20px;
+    }
+  }
+  .copyrigth{
+    font-size: 0.6rem;
+
+  }
+}
+
 
 

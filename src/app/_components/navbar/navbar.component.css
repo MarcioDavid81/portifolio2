@@ -35,3 +35,8 @@ a{
     color: #242734 !important;
   }
 }
+@media (width < 768px){
+  .navbar{
+    position: relative;
+  }
+}
