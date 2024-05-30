@@ -1,0 +1,35 @@
+
+
+.navbar{
+    background-color: #242734 !important;
+
+    .logo{
+        width: 120px;
+        height: 110px;
+    }
+}
+
+a{
+    font-family: var(--primary-font);
+    color: #FBBB2F !important;
+}
+
+.navbar-toggler{
+  background-color: #FBBB2F !important;
+}
+
+
+.btn-warning{
+  color:#242734 !important;
+  font-weight: bold;
+  transition: 0.5s  ease-in-out;
+}
+
+.dropdown-menu a{
+  color: #242734 !important;
+
+  &:hover{
+    background-color: #FBBB2F !important;
+    color: #242734 !important;
+  }
+}
