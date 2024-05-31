@@ -6,7 +6,7 @@
     .logo{
         width: 120px;
         height: 110px;
-        filter: drop-shadow(0 0 3px #fbbb2f);
+        filter: drop-shadow(0 0 1px #fbbb2f);
         transition: 0.5s;
     }
 }
