@@ -64,6 +64,51 @@ a{
     }
   }
 }
+
+
+.cursos{
+  background-color: #F8F9FA;
+}
+
+.hard{
+  display: flex;
+  justify-content: center;
+  font-family: var(--primary-font);
+}
+
+.tecnologias{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  align-items: center;
+  align-self: start;
+  margin-top: 20px;
+  transition: 0.3s;
+
+  h3{
+    font-size: 1.2em;
+    font-weight: 700;
+    color: var(--primary-color);
+  }
+  p{
+    text-align: center;
+    font-size: 1em;
+    color: var(--secondary-color);
+  }
+
+  &:hover{
+    border-radius: 15px;
+    box-shadow: 0 0 5px var(--secondary-color);
+    transform: scale(1.03);
+  }
+}
+.icon-curso{
+  width: 20%;
+  height: auto;
+
+}
+
 /*Botão de Voltar ao Topo*/
 .btn-top{
   display: flex;
