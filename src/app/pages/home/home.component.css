@@ -97,10 +97,9 @@ a{
     color: var(--secondary-color);
   }
 
-  &:hover{
-    border-radius: 15px;
-    box-shadow: 0 0 5px var(--secondary-color);
-    transform: scale(1.03);
+  img:hover{
+    filter: blur(1px);
+    transform: scale(1.01);
   }
 }
 .icon-curso{

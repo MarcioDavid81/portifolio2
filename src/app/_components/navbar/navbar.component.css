@@ -11,6 +11,14 @@
     }
 }
 
+.nav-item{
+  transition: 0.5s;
+}
+
+.nav-item:hover{
+  transform: scale(1.1);
+}
+
 a{
     font-family: var(--primary-font);
     color: #FBBB2F !important;
